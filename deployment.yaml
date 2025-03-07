@@ -1,0 +1,36 @@
+# deployment.yaml
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: digit-recognition
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: flask-app
+  template:
+    metadata:
+      labels:
+        app: flask-app
+    spec:
+      containers:
+      - name: flask-app-container
+        image: yohannesah/digit-recognition:latest
+        imagePullPolicy: Always  # Add this line to ensure always pulling the latest image
+        ports:
+        - containerPort: 5000
+        command: ["python", "app.py"]
+
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: digit-recognition-service
+spec:
+  selector:
+    app: flask-app
+  ports:
+    - protocol: TCP
+      port: 80
+      targetPort: 5000
+  type: NodePort

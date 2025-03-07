@@ -1,0 +1,316 @@
+WARNING:tensorflow:From C:\Users\yohan\Downloads\Hand_Written Digit\env\Lib\site-packages\keras\src\saving\legacy\saved_model\load.py:107: The name tf.gfile.Exists is deprecated. Please use tf.io.gfile.exists instead.
+
+WARNING:tensorflow:From C:\Users\yohan\Downloads\Hand_Written Digit\env\Lib\site-packages\keras\src\layers\pooling\max_pooling2d.py:161: The name tf.nn.max_pool is deprecated. Please use tf.nn.max_pool2d instead.
+
+WARNING:tensorflow:From C:\Users\yohan\Downloads\Hand_Written Digit\env\Lib\site-packages\keras\src\utils\tf_utils.py:585: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:tensorflow:From C:\Users\yohan\Downloads\Hand_Written Digit\env\Lib\site-packages\keras\src\saving\legacy\saved_model\load.py:107: The name tf.gfile.Exists is deprecated. Please use tf.io.gfile.exists instead.
+
+WARNING:tensorflow:From C:\Users\yohan\Downloads\Hand_Written Digit\env\Lib\site-packages\keras\src\layers\pooling\max_pooling2d.py:161: The name tf.nn.max_pool is deprecated. Please use tf.nn.max_pool2d instead.
+
+WARNING:tensorflow:From C:\Users\yohan\Downloads\Hand_Written Digit\env\Lib\site-packages\keras\src\utils\tf_utils.py:585: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 191-686-349
+INFO:werkzeug:127.0.0.1 - - [06/Mar/2025 23:58:16] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/Mar/2025 23:58:16] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+DEBUG:PIL.PngImagePlugin:STREAM b'IHDR' 16 13
+DEBUG:PIL.PngImagePlugin:STREAM b'sRGB' 41 1
+DEBUG:PIL.PngImagePlugin:STREAM b'IDAT' 54 6080
+INFO:root:Recognized Digits: {'recognized_digits': [{'position': 101, 'digit_class': 3}]}
+INFO:werkzeug:127.0.0.1 - - [06/Mar/2025 23:58:23] "POST /predict HTTP/1.1" 200 -
+DEBUG:PIL.PngImagePlugin:STREAM b'IHDR' 16 13
+DEBUG:PIL.PngImagePlugin:STREAM b'sRGB' 41 1
+DEBUG:PIL.PngImagePlugin:STREAM b'IDAT' 54 6232
+INFO:root:Recognized Digits: {'recognized_digits': []}
+INFO:werkzeug:127.0.0.1 - - [06/Mar/2025 23:58:29] "POST /predict HTTP/1.1" 200 -
+DEBUG:PIL.PngImagePlugin:STREAM b'IHDR' 16 13
+DEBUG:PIL.PngImagePlugin:STREAM b'sRGB' 41 1
+DEBUG:PIL.PngImagePlugin:STREAM b'IDAT' 54 6232
+INFO:root:Recognized Digits: {'recognized_digits': []}
+INFO:werkzeug:127.0.0.1 - - [06/Mar/2025 23:58:30] "POST /predict HTTP/1.1" 200 -
+DEBUG:PIL.PngImagePlugin:STREAM b'IHDR' 16 13
+DEBUG:PIL.PngImagePlugin:STREAM b'sRGB' 41 1
+DEBUG:PIL.PngImagePlugin:STREAM b'IDAT' 54 6232
+INFO:root:Recognized Digits: {'recognized_digits': []}
+INFO:werkzeug:127.0.0.1 - - [06/Mar/2025 23:58:33] "POST /predict HTTP/1.1" 200 -
+DEBUG:PIL.PngImagePlugin:STREAM b'IHDR' 16 13
+DEBUG:PIL.PngImagePlugin:STREAM b'sRGB' 41 1
+DEBUG:PIL.PngImagePlugin:STREAM b'IDAT' 54 6267
+INFO:root:Recognized Digits: {'recognized_digits': [{'position': 185, 'digit_class': 8}]}
+INFO:werkzeug:127.0.0.1 - - [06/Mar/2025 23:58:37] "POST /predict HTTP/1.1" 200 -
+DEBUG:PIL.PngImagePlugin:STREAM b'IHDR' 16 13
+DEBUG:PIL.PngImagePlugin:STREAM b'sRGB' 41 1
+DEBUG:PIL.PngImagePlugin:STREAM b'IDAT' 54 6455
+INFO:root:Recognized Digits: {'recognized_digits': []}
+INFO:werkzeug:127.0.0.1 - - [06/Mar/2025 23:58:42] "POST /predict HTTP/1.1" 200 -
+DEBUG:PIL.PngImagePlugin:STREAM b'IHDR' 16 13
+DEBUG:PIL.PngImagePlugin:STREAM b'sRGB' 41 1
+DEBUG:PIL.PngImagePlugin:STREAM b'IDAT' 54 6457
+INFO:root:Recognized Digits: {'recognized_digits': [{'position': 197, 'digit_class': 3}]}
+INFO:werkzeug:127.0.0.1 - - [06/Mar/2025 23:58:48] "POST /predict HTTP/1.1" 200 -
+DEBUG:PIL.PngImagePlugin:STREAM b'IHDR' 16 13
+DEBUG:PIL.PngImagePlugin:STREAM b'sRGB' 41 1
+DEBUG:PIL.PngImagePlugin:STREAM b'IDAT' 54 6608
+INFO:root:Recognized Digits: {'recognized_digits': [{'position': 144, 'digit_class': 2}]}
+INFO:werkzeug:127.0.0.1 - - [06/Mar/2025 23:58:53] "POST /predict HTTP/1.1" 200 -
+DEBUG:PIL.PngImagePlugin:STREAM b'IHDR' 16 13
+DEBUG:PIL.PngImagePlugin:STREAM b'sRGB' 41 1
+DEBUG:PIL.PngImagePlugin:STREAM b'IDAT' 54 8192
+INFO:root:Recognized Digits: {'recognized_digits': [{'position': 148, 'digit_class': 2}, {'position': 271, 'digit_class': 3}, {'position': 425, 'digit_class': 6}, {'position': 566, 'digit_class': 5}]}
+INFO:werkzeug:127.0.0.1 - - [06/Mar/2025 23:59:05] "POST /predict HTTP/1.1" 200 -
+DEBUG:PIL.PngImagePlugin:STREAM b'IHDR' 16 13
+DEBUG:PIL.PngImagePlugin:STREAM b'sRGB' 41 1
+DEBUG:PIL.PngImagePlugin:STREAM b'IDAT' 54 8192
+INFO:root:Recognized Digits: {'recognized_digits': [{'position': 109, 'digit_class': 2}]}
+INFO:werkzeug:127.0.0.1 - - [06/Mar/2025 23:59:15] "POST /predict HTTP/1.1" 200 -
+DEBUG:PIL.PngImagePlugin:STREAM b'IHDR' 16 13
+DEBUG:PIL.PngImagePlugin:STREAM b'sRGB' 41 1
+DEBUG:PIL.PngImagePlugin:STREAM b'IDAT' 54 7908
+INFO:root:Recognized Digits: {'recognized_digits': [{'position': 145, 'digit_class': 2}]}
+INFO:werkzeug:127.0.0.1 - - [06/Mar/2025 23:59:23] "POST /predict HTTP/1.1" 200 -
+DEBUG:PIL.PngImagePlugin:STREAM b'IHDR' 16 13
+DEBUG:PIL.PngImagePlugin:STREAM b'sRGB' 41 1
+DEBUG:PIL.PngImagePlugin:STREAM b'IDAT' 54 8192
+INFO:root:Recognized Digits: {'recognized_digits': [{'position': 137, 'digit_class': 2}, {'position': 649, 'digit_class': 8}]}
+INFO:werkzeug:127.0.0.1 - - [06/Mar/2025 23:59:30] "POST /predict HTTP/1.1" 200 -
+DEBUG:PIL.PngImagePlugin:STREAM b'IHDR' 16 13
+DEBUG:PIL.PngImagePlugin:STREAM b'sRGB' 41 1
+DEBUG:PIL.PngImagePlugin:STREAM b'IDAT' 54 6628
+INFO:root:Recognized Digits: {'recognized_digits': [{'position': 348, 'digit_class': 7}]}
+INFO:werkzeug:127.0.0.1 - - [06/Mar/2025 23:59:37] "POST /predict HTTP/1.1" 200 -
+DEBUG:PIL.PngImagePlugin:STREAM b'IHDR' 16 13
+DEBUG:PIL.PngImagePlugin:STREAM b'sRGB' 41 1
+DEBUG:PIL.PngImagePlugin:STREAM b'IDAT' 54 8192
+INFO:root:Recognized Digits: {'recognized_digits': [{'position': 141, 'digit_class': 2}, {'position': 278, 'digit_class': 5}, {'position': 508, 'digit_class': 8}, {'position': 749, 'digit_class': 6}]}
+INFO:werkzeug:127.0.0.1 - - [06/Mar/2025 23:59:52] "POST /predict HTTP/1.1" 200 -
+DEBUG:PIL.PngImagePlugin:STREAM b'IHDR' 16 13
+DEBUG:PIL.PngImagePlugin:STREAM b'sRGB' 41 1
+DEBUG:PIL.PngImagePlugin:STREAM b'IDAT' 54 5841
+INFO:root:Recognized Digits: {'recognized_digits': [{'position': 68, 'digit_class': 3}]}
+INFO:werkzeug:127.0.0.1 - - [07/Mar/2025 00:00:01] "POST /predict HTTP/1.1" 200 -
+DEBUG:PIL.PngImagePlugin:STREAM b'IHDR' 16 13
+DEBUG:PIL.PngImagePlugin:STREAM b'sRGB' 41 1
+DEBUG:PIL.PngImagePlugin:STREAM b'IDAT' 54 5493
+INFO:root:Recognized Digits: {'recognized_digits': [{'position': 78, 'digit_class': 1}]}
+INFO:werkzeug:127.0.0.1 - - [07/Mar/2025 00:00:06] "POST /predict HTTP/1.1" 200 -
+DEBUG:PIL.PngImagePlugin:STREAM b'IHDR' 16 13
+DEBUG:PIL.PngImagePlugin:STREAM b'sRGB' 41 1
+DEBUG:PIL.PngImagePlugin:STREAM b'IDAT' 54 7373
+INFO:root:Recognized Digits: {'recognized_digits': [{'position': 79, 'digit_class': 1}, {'position': 173, 'digit_class': 2}]}
+INFO:werkzeug:127.0.0.1 - - [07/Mar/2025 00:00:12] "POST /predict HTTP/1.1" 200 -
+DEBUG:PIL.PngImagePlugin:STREAM b'IHDR' 16 13
+DEBUG:PIL.PngImagePlugin:STREAM b'sRGB' 41 1
+DEBUG:PIL.PngImagePlugin:STREAM b'IDAT' 54 8192
+INFO:root:Recognized Digits: {'recognized_digits': [{'position': 79, 'digit_class': 1}, {'position': 173, 'digit_class': 2}, {'position': 280, 'digit_class': 3}]}
+INFO:werkzeug:127.0.0.1 - - [07/Mar/2025 00:00:16] "POST /predict HTTP/1.1" 200 -
+DEBUG:PIL.PngImagePlugin:STREAM b'IHDR' 16 13
+DEBUG:PIL.PngImagePlugin:STREAM b'sRGB' 41 1
+DEBUG:PIL.PngImagePlugin:STREAM b'IDAT' 54 8192
+INFO:root:Recognized Digits: {'recognized_digits': [{'position': 79, 'digit_class': 1}, {'position': 173, 'digit_class': 2}, {'position': 280, 'digit_class': 3}, {'position': 441, 'digit_class': 4}]}
+INFO:werkzeug:127.0.0.1 - - [07/Mar/2025 00:00:22] "POST /predict HTTP/1.1" 200 -
+DEBUG:PIL.PngImagePlugin:STREAM b'IHDR' 16 13
+DEBUG:PIL.PngImagePlugin:STREAM b'sRGB' 41 1
+DEBUG:PIL.PngImagePlugin:STREAM b'IDAT' 54 8192
+INFO:root:Recognized Digits: {'recognized_digits': [{'position': 79, 'digit_class': 1}, {'position': 173, 'digit_class': 2}, {'position': 280, 'digit_class': 3}, {'position': 441, 'digit_class': 4}, {'position': 612, 'digit_class': 5}]}
+INFO:werkzeug:127.0.0.1 - - [07/Mar/2025 00:00:29] "POST /predict HTTP/1.1" 200 -
+DEBUG:PIL.PngImagePlugin:STREAM b'IHDR' 16 13
+DEBUG:PIL.PngImagePlugin:STREAM b'sRGB' 41 1
+DEBUG:PIL.PngImagePlugin:STREAM b'IDAT' 54 8192
+INFO:root:Recognized Digits: {'recognized_digits': [{'position': 79, 'digit_class': 1}, {'position': 173, 'digit_class': 2}, {'position': 280, 'digit_class': 3}, {'position': 441, 'digit_class': 4}, {'position': 612, 'digit_class': 5}, {'position': 754, 'digit_class': 6}]}
+INFO:werkzeug:127.0.0.1 - - [07/Mar/2025 00:00:34] "POST /predict HTTP/1.1" 200 -
+DEBUG:PIL.PngImagePlugin:STREAM b'IHDR' 16 13
+DEBUG:PIL.PngImagePlugin:STREAM b'sRGB' 41 1
+DEBUG:PIL.PngImagePlugin:STREAM b'IDAT' 54 8192
+INFO:root:Recognized Digits: {'recognized_digits': [{'position': 79, 'digit_class': 1}, {'position': 173, 'digit_class': 2}, {'position': 280, 'digit_class': 3}, {'position': 441, 'digit_class': 4}, {'position': 612, 'digit_class': 5}, {'position': 754, 'digit_class': 6}]}
+INFO:werkzeug:127.0.0.1 - - [07/Mar/2025 00:00:42] "POST /predict HTTP/1.1" 200 -
+DEBUG:PIL.PngImagePlugin:STREAM b'IHDR' 16 13
+DEBUG:PIL.PngImagePlugin:STREAM b'sRGB' 41 1
+DEBUG:PIL.PngImagePlugin:STREAM b'IDAT' 54 8192
+INFO:root:Recognized Digits: {'recognized_digits': [{'position': 79, 'digit_class': 1}, {'position': 173, 'digit_class': 2}, {'position': 280, 'digit_class': 3}, {'position': 441, 'digit_class': 4}, {'position': 612, 'digit_class': 5}, {'position': 754, 'digit_class': 6}]}
+INFO:werkzeug:127.0.0.1 - - [07/Mar/2025 00:00:45] "POST /predict HTTP/1.1" 200 -
+DEBUG:PIL.PngImagePlugin:STREAM b'IHDR' 16 13
+DEBUG:PIL.PngImagePlugin:STREAM b'sRGB' 41 1
+DEBUG:PIL.PngImagePlugin:STREAM b'IDAT' 54 8192
+INFO:root:Recognized Digits: {'recognized_digits': [{'position': 13, 'digit_class': 8}, {'position': 79, 'digit_class': 1}, {'position': 173, 'digit_class': 2}, {'position': 280, 'digit_class': 3}, {'position': 441, 'digit_class': 4}, {'position': 612, 'digit_class': 5}, {'position': 754, 'digit_class': 6}]}
+INFO:werkzeug:127.0.0.1 - - [07/Mar/2025 00:00:54] "POST /predict HTTP/1.1" 200 -
+WARNING:tensorflow:From C:\Users\yohan\Downloads\Hand_Written Digits\env\Lib\site-packages\keras\src\saving\legacy\saved_model\load.py:107: The name tf.gfile.Exists is deprecated. Please use tf.io.gfile.exists instead.
+
+WARNING:tensorflow:From C:\Users\yohan\Downloads\Hand_Written Digits\env\Lib\site-packages\keras\src\layers\pooling\max_pooling2d.py:161: The name tf.nn.max_pool is deprecated. Please use tf.nn.max_pool2d instead.
+
+WARNING:tensorflow:From C:\Users\yohan\Downloads\Hand_Written Digits\env\Lib\site-packages\keras\src\utils\tf_utils.py:585: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:tensorflow:From C:\Users\yohan\Downloads\Hand_Written Digits\env\Lib\site-packages\keras\src\saving\legacy\saved_model\load.py:107: The name tf.gfile.Exists is deprecated. Please use tf.io.gfile.exists instead.
+
+WARNING:tensorflow:From C:\Users\yohan\Downloads\Hand_Written Digits\env\Lib\site-packages\keras\src\layers\pooling\max_pooling2d.py:161: The name tf.nn.max_pool is deprecated. Please use tf.nn.max_pool2d instead.
+
+WARNING:tensorflow:From C:\Users\yohan\Downloads\Hand_Written Digits\env\Lib\site-packages\keras\src\utils\tf_utils.py:585: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 966-900-383
+INFO:werkzeug:127.0.0.1 - - [07/Mar/2025 01:56:47] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Mar/2025 01:56:47] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+DEBUG:PIL.PngImagePlugin:STREAM b'IHDR' 16 13
+DEBUG:PIL.PngImagePlugin:STREAM b'sRGB' 41 1
+DEBUG:PIL.PngImagePlugin:STREAM b'IDAT' 54 6298
+INFO:root:Recognized Digits: {'recognized_digits': [{'position': 61, 'digit_class': 2}]}
+INFO:werkzeug:127.0.0.1 - - [07/Mar/2025 01:57:24] "POST /predict HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Mar/2025 01:57:44] "GET / HTTP/1.1" 200 -
+WARNING:tensorflow:From C:\Users\yohan\Downloads\Hand_Written Digits\env\Lib\site-packages\keras\src\saving\legacy\saved_model\load.py:107: The name tf.gfile.Exists is deprecated. Please use tf.io.gfile.exists instead.
+
+WARNING:tensorflow:From C:\Users\yohan\Downloads\Hand_Written Digits\env\Lib\site-packages\keras\src\layers\pooling\max_pooling2d.py:161: The name tf.nn.max_pool is deprecated. Please use tf.nn.max_pool2d instead.
+
+WARNING:tensorflow:From C:\Users\yohan\Downloads\Hand_Written Digits\env\Lib\site-packages\keras\src\utils\tf_utils.py:585: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:tensorflow:From C:\Users\yohan\Downloads\Hand_Written Digits\env\Lib\site-packages\keras\src\saving\legacy\saved_model\load.py:107: The name tf.gfile.Exists is deprecated. Please use tf.io.gfile.exists instead.
+
+WARNING:tensorflow:From C:\Users\yohan\Downloads\Hand_Written Digits\env\Lib\site-packages\keras\src\layers\pooling\max_pooling2d.py:161: The name tf.nn.max_pool is deprecated. Please use tf.nn.max_pool2d instead.
+
+WARNING:tensorflow:From C:\Users\yohan\Downloads\Hand_Written Digits\env\Lib\site-packages\keras\src\utils\tf_utils.py:585: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 966-900-383
+INFO:werkzeug:127.0.0.1 - - [07/Mar/2025 01:58:28] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Mar/2025 01:58:30] "GET / HTTP/1.1" 200 -
+DEBUG:PIL.PngImagePlugin:STREAM b'IHDR' 16 13
+DEBUG:PIL.PngImagePlugin:STREAM b'sRGB' 41 1
+DEBUG:PIL.PngImagePlugin:STREAM b'IDAT' 54 6640
+INFO:root:Recognized Digits: {'recognized_digits': [{'position': 99, 'digit_class': 3}]}
+INFO:werkzeug:127.0.0.1 - - [07/Mar/2025 01:58:49] "POST /predict HTTP/1.1" 200 -
+DEBUG:PIL.PngImagePlugin:STREAM b'IHDR' 16 13
+DEBUG:PIL.PngImagePlugin:STREAM b'sRGB' 41 1
+DEBUG:PIL.PngImagePlugin:STREAM b'IDAT' 54 6680
+INFO:root:Recognized Digits: {'recognized_digits': [{'position': 103, 'digit_class': 8}]}
+INFO:werkzeug:127.0.0.1 - - [07/Mar/2025 01:58:54] "POST /predict HTTP/1.1" 200 -
+DEBUG:PIL.PngImagePlugin:STREAM b'IHDR' 16 13
+DEBUG:PIL.PngImagePlugin:STREAM b'sRGB' 41 1
+DEBUG:PIL.PngImagePlugin:STREAM b'IDAT' 54 6564
+INFO:root:Recognized Digits: {'recognized_digits': [{'position': 86, 'digit_class': 8}]}
+INFO:werkzeug:127.0.0.1 - - [07/Mar/2025 01:59:33] "POST /predict HTTP/1.1" 200 -
+DEBUG:PIL.PngImagePlugin:STREAM b'IHDR' 16 13
+DEBUG:PIL.PngImagePlugin:STREAM b'sRGB' 41 1
+DEBUG:PIL.PngImagePlugin:STREAM b'IDAT' 54 6779
+INFO:root:Recognized Digits: {'recognized_digits': [{'position': 73, 'digit_class': 2}]}
+INFO:werkzeug:127.0.0.1 - - [07/Mar/2025 01:59:39] "POST /predict HTTP/1.1" 200 -
+DEBUG:PIL.PngImagePlugin:STREAM b'IHDR' 16 13
+DEBUG:PIL.PngImagePlugin:STREAM b'sRGB' 41 1
+DEBUG:PIL.PngImagePlugin:STREAM b'IDAT' 54 8192
+INFO:root:Recognized Digits: {'recognized_digits': [{'position': 101, 'digit_class': 5}, {'position': 218, 'digit_class': 4}, {'position': 350, 'digit_class': 3}]}
+INFO:werkzeug:127.0.0.1 - - [07/Mar/2025 01:59:55] "POST /predict HTTP/1.1" 200 -
+DEBUG:PIL.PngImagePlugin:STREAM b'IHDR' 16 13
+DEBUG:PIL.PngImagePlugin:STREAM b'sRGB' 41 1
+DEBUG:PIL.PngImagePlugin:STREAM b'IDAT' 54 6542
+INFO:root:Recognized Digits: {'recognized_digits': [{'position': 64, 'digit_class': 8}]}
+INFO:werkzeug:127.0.0.1 - - [07/Mar/2025 02:01:19] "POST /predict HTTP/1.1" 200 -
+DEBUG:PIL.PngImagePlugin:STREAM b'IHDR' 16 13
+DEBUG:PIL.PngImagePlugin:STREAM b'sRGB' 41 1
+DEBUG:PIL.PngImagePlugin:STREAM b'IDAT' 54 7483
+INFO:root:Recognized Digits: {'recognized_digits': [{'position': 103, 'digit_class': 6}, {'position': 220, 'digit_class': 4}]}
+INFO:werkzeug:127.0.0.1 - - [07/Mar/2025 02:01:30] "POST /predict HTTP/1.1" 200 -
+DEBUG:PIL.PngImagePlugin:STREAM b'IHDR' 16 13
+DEBUG:PIL.PngImagePlugin:STREAM b'sRGB' 41 1
+DEBUG:PIL.PngImagePlugin:STREAM b'IDAT' 54 8192
+INFO:root:Recognized Digits: {'recognized_digits': [{'position': 70, 'digit_class': 5}, {'position': 198, 'digit_class': 3}, {'position': 359, 'digit_class': 2}]}
+INFO:werkzeug:127.0.0.1 - - [07/Mar/2025 02:01:51] "POST /predict HTTP/1.1" 200 -
+DEBUG:PIL.PngImagePlugin:STREAM b'IHDR' 16 13
+DEBUG:PIL.PngImagePlugin:STREAM b'sRGB' 41 1
+DEBUG:PIL.PngImagePlugin:STREAM b'IDAT' 54 7114
+INFO:root:Recognized Digits: {'recognized_digits': [{'position': 73, 'digit_class': 8}]}
+INFO:werkzeug:127.0.0.1 - - [07/Mar/2025 02:03:08] "POST /predict HTTP/1.1" 200 -
+DEBUG:PIL.PngImagePlugin:STREAM b'IHDR' 16 13
+DEBUG:PIL.PngImagePlugin:STREAM b'sRGB' 41 1
+DEBUG:PIL.PngImagePlugin:STREAM b'IDAT' 54 7946
+INFO:root:Recognized Digits: {'recognized_digits': [{'position': 87, 'digit_class': 2}, {'position': 217, 'digit_class': 6}]}
+INFO:werkzeug:127.0.0.1 - - [07/Mar/2025 02:03:17] "POST /predict HTTP/1.1" 200 -
+DEBUG:PIL.PngImagePlugin:STREAM b'IHDR' 16 13
+DEBUG:PIL.PngImagePlugin:STREAM b'sRGB' 41 1
+DEBUG:PIL.PngImagePlugin:STREAM b'IDAT' 54 8192
+INFO:root:Recognized Digits: {'recognized_digits': [{'position': 92, 'digit_class': 9}, {'position': 215, 'digit_class': 4}, {'position': 354, 'digit_class': 0}, {'position': 459, 'digit_class': 3}, {'position': 591, 'digit_class': 5}]}
+INFO:werkzeug:127.0.0.1 - - [07/Mar/2025 02:03:39] "POST /predict HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Mar/2025 02:05:34] "GET / HTTP/1.1" 200 -
+DEBUG:PIL.PngImagePlugin:STREAM b'IHDR' 16 13
+DEBUG:PIL.PngImagePlugin:STREAM b'sRGB' 41 1
+DEBUG:PIL.PngImagePlugin:STREAM b'IDAT' 54 6922
+INFO:root:Recognized Digits: {'recognized_digits': [{'position': 74, 'digit_class': 8}]}
+INFO:werkzeug:127.0.0.1 - - [07/Mar/2025 02:06:04] "POST /predict HTTP/1.1" 200 -
+DEBUG:PIL.PngImagePlugin:STREAM b'IHDR' 16 13
+DEBUG:PIL.PngImagePlugin:STREAM b'sRGB' 41 1
+DEBUG:PIL.PngImagePlugin:STREAM b'IDAT' 54 8192
+INFO:root:Recognized Digits: {'recognized_digits': [{'position': 96, 'digit_class': 2}, {'position': 236, 'digit_class': 6}]}
+INFO:werkzeug:127.0.0.1 - - [07/Mar/2025 02:06:14] "POST /predict HTTP/1.1" 200 -
+DEBUG:PIL.PngImagePlugin:STREAM b'IHDR' 16 13
+DEBUG:PIL.PngImagePlugin:STREAM b'sRGB' 41 1
+DEBUG:PIL.PngImagePlugin:STREAM b'IDAT' 54 6904
+INFO:root:Recognized Digits: {'recognized_digits': [{'position': 122, 'digit_class': 8}]}
+INFO:werkzeug:127.0.0.1 - - [07/Mar/2025 02:06:49] "POST /predict HTTP/1.1" 200 -
+DEBUG:PIL.PngImagePlugin:STREAM b'IHDR' 16 13
+DEBUG:PIL.PngImagePlugin:STREAM b'sRGB' 41 1
+DEBUG:PIL.PngImagePlugin:STREAM b'IDAT' 54 8192
+INFO:root:Recognized Digits: {'recognized_digits': [{'position': 147, 'digit_class': 2}, {'position': 287, 'digit_class': 6}]}
+INFO:werkzeug:127.0.0.1 - - [07/Mar/2025 02:06:58] "POST /predict HTTP/1.1" 200 -
+DEBUG:PIL.PngImagePlugin:STREAM b'IHDR' 16 13
+DEBUG:PIL.PngImagePlugin:STREAM b'sRGB' 41 1
+DEBUG:PIL.PngImagePlugin:STREAM b'IDAT' 54 8192
+INFO:root:Recognized Digits: {'recognized_digits': [{'position': 128, 'digit_class': 9}, {'position': 249, 'digit_class': 6}, {'position': 400, 'digit_class': 0}, {'position': 507, 'digit_class': 3}, {'position': 641, 'digit_class': 3}]}
+INFO:werkzeug:127.0.0.1 - - [07/Mar/2025 02:07:18] "POST /predict HTTP/1.1" 200 -
+DEBUG:PIL.PngImagePlugin:STREAM b'IHDR' 16 13
+DEBUG:PIL.PngImagePlugin:STREAM b'sRGB' 41 1
+DEBUG:PIL.PngImagePlugin:STREAM b'IDAT' 54 7057
+INFO:root:Recognized Digits: {'recognized_digits': [{'position': 163, 'digit_class': 8}]}
+INFO:werkzeug:127.0.0.1 - - [07/Mar/2025 02:07:57] "POST /predict HTTP/1.1" 200 -
+DEBUG:PIL.PngImagePlugin:STREAM b'IHDR' 16 13
+DEBUG:PIL.PngImagePlugin:STREAM b'sRGB' 41 1
+DEBUG:PIL.PngImagePlugin:STREAM b'IDAT' 54 8192
+INFO:root:Recognized Digits: {'recognized_digits': [{'position': 172, 'digit_class': 2}, {'position': 292, 'digit_class': 6}]}
+INFO:werkzeug:127.0.0.1 - - [07/Mar/2025 02:08:06] "POST /predict HTTP/1.1" 200 -
+DEBUG:PIL.PngImagePlugin:STREAM b'IHDR' 16 13
+DEBUG:PIL.PngImagePlugin:STREAM b'sRGB' 41 1
+DEBUG:PIL.PngImagePlugin:STREAM b'IDAT' 54 8192
+INFO:root:Recognized Digits: {'recognized_digits': [{'position': 217, 'digit_class': 9}, {'position': 340, 'digit_class': 4}, {'position': 456, 'digit_class': 0}, {'position': 585, 'digit_class': 3}, {'position': 721, 'digit_class': 5}]}
+INFO:werkzeug:127.0.0.1 - - [07/Mar/2025 02:08:26] "POST /predict HTTP/1.1" 200 -
+DEBUG:PIL.PngImagePlugin:STREAM b'IHDR' 16 13
+DEBUG:PIL.PngImagePlugin:STREAM b'sRGB' 41 1
+DEBUG:PIL.PngImagePlugin:STREAM b'IDAT' 54 7058
+INFO:root:Recognized Digits: {'recognized_digits': [{'position': 117, 'digit_class': 8}]}
+INFO:werkzeug:127.0.0.1 - - [07/Mar/2025 02:09:51] "POST /predict HTTP/1.1" 200 -
+DEBUG:PIL.PngImagePlugin:STREAM b'IHDR' 16 13
+DEBUG:PIL.PngImagePlugin:STREAM b'sRGB' 41 1
+DEBUG:PIL.PngImagePlugin:STREAM b'IDAT' 54 8192
+INFO:root:Recognized Digits: {'recognized_digits': [{'position': 125, 'digit_class': 2}, {'position': 240, 'digit_class': 6}]}
+INFO:werkzeug:127.0.0.1 - - [07/Mar/2025 02:09:59] "POST /predict HTTP/1.1" 200 -
+DEBUG:PIL.PngImagePlugin:STREAM b'IHDR' 16 13
+DEBUG:PIL.PngImagePlugin:STREAM b'sRGB' 41 1
+DEBUG:PIL.PngImagePlugin:STREAM b'IDAT' 54 8192
+INFO:root:Recognized Digits: {'recognized_digits': [{'position': 132, 'digit_class': 9}, {'position': 256, 'digit_class': 4}, {'position': 378, 'digit_class': 0}, {'position': 506, 'digit_class': 3}, {'position': 624, 'digit_class': 5}]}
+INFO:werkzeug:127.0.0.1 - - [07/Mar/2025 02:10:18] "POST /predict HTTP/1.1" 200 -
+WARNING:tensorflow:From C:\Users\yohan\Downloads\Hand_Written Digits\env\Lib\site-packages\keras\src\saving\legacy\saved_model\load.py:107: The name tf.gfile.Exists is deprecated. Please use tf.io.gfile.exists instead.
+
+WARNING:tensorflow:From C:\Users\yohan\Downloads\Hand_Written Digits\env\Lib\site-packages\keras\src\layers\pooling\max_pooling2d.py:161: The name tf.nn.max_pool is deprecated. Please use tf.nn.max_pool2d instead.
+
+WARNING:tensorflow:From C:\Users\yohan\Downloads\Hand_Written Digits\env\Lib\site-packages\keras\src\utils\tf_utils.py:585: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:tensorflow:From C:\Users\yohan\Downloads\Hand_Written Digits\env\Lib\site-packages\keras\src\saving\legacy\saved_model\load.py:107: The name tf.gfile.Exists is deprecated. Please use tf.io.gfile.exists instead.
+
+WARNING:tensorflow:From C:\Users\yohan\Downloads\Hand_Written Digits\env\Lib\site-packages\keras\src\layers\pooling\max_pooling2d.py:161: The name tf.nn.max_pool is deprecated. Please use tf.nn.max_pool2d instead.
+
+WARNING:tensorflow:From C:\Users\yohan\Downloads\Hand_Written Digits\env\Lib\site-packages\keras\src\utils\tf_utils.py:585: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 966-900-383
+INFO:werkzeug:127.0.0.1 - - [07/Mar/2025 02:17:33] "GET / HTTP/1.1" 200 -
